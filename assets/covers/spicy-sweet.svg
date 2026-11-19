@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgSpicy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#881337"/>
+      <stop offset="50%" stop-color="#BE123C"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgSpicy)"/>
+  <!-- Big delicious donut & angry chili -->
+  <g transform="translate(160 180) scale(1.1) translate(-75 -75)">
+    <ellipse cx="75" cy="75" rx="65" ry="60" fill="#FDE047" stroke="#181226" stroke-width="6"/>
+    <ellipse cx="75" cy="75" rx="22" ry="20" fill="#FFFFFF" stroke="#181226" stroke-width="5"/>
+    <path d="M25 75 C25 45 45 25 75 25 C105 25 125 45 125 75 C115 85 105 75 95 85 C85 95 75 80 65 90 C50 85 40 95 25 75 Z" fill="#F43F5E"/>
+  </g>
+  <g transform="translate(160 340) scale(1.1) translate(-70 -70)">
+    <path d="M108 36 C125 55 120 100 78 120 C35 138 25 128 30 116 C35 105 72 100 88 78 C102 58 95 42 108 36 Z" fill="#DC2626" stroke="#181226" stroke-width="6"/>
+  </g>
+</svg>

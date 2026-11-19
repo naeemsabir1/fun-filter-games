@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naeemsabir1.github.io/fun-filter-games/sitemap.xml

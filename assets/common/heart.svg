@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="heartGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF5E8A" />
+      <stop offset="100%" stop-color="#E6195E" />
+    </linearGradient>
+  </defs>
+  <!-- Shadow/Dark Base -->
+  <path d="M128 226 C44 154 24 116 24 76 C24 40 52 18 88 18 C110 18 122 30 128 40 C134 30 146 18 168 18 C204 18 232 40 232 76 C232 116 212 154 128 226 Z" fill="url(#heartGrad)" stroke="#1B1036" stroke-width="8" stroke-linejoin="round" />
+  <!-- Gloss highlight -->
+  <path d="M50 72 C50 48 68 34 88 34 C98 34 108 40 114 48 C108 42 98 38 88 38 C72 38 58 50 58 68 C58 78 62 88 68 96 C60 88 50 82 50 72 Z" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="80" cy="54" r="6" fill="#FFFFFF" opacity="0.8" />
+</svg>

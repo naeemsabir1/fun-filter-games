@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="384" height="512">
+  <defs>
+    <linearGradient id="pizzaCoverBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#551138"/>
+    </linearGradient>
+  </defs>
+  <rect width="384" height="512" rx="24" fill="url(#pizzaCoverBg)"/>
+  <!-- Falling slices in background -->
+  <g opacity="0.3" transform="translate(40, 60) scale(0.4) rotate(25)">
+    <path d="M30 50 Q128 32 226 50 L128 228 Z" fill="#FFD23F"/>
+  </g>
+  <g opacity="0.3" transform="translate(260, 90) scale(0.4) rotate(-35)">
+    <path d="M30 50 Q128 32 226 50 L128 228 Z" fill="#FFD23F"/>
+  </g>
+  <!-- Hero Slice Front Center -->
+  <g transform="translate(68, 120)">
+    <path d="M30 50 Q128 32 226 50 L128 228 Z" fill="#FFD23F" stroke="#1B1036" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M24 50 Q128 26 232 50 C234 65 220 72 205 68 Q128 48 51 68 C36 72 22 65 24 50 Z" fill="#E89B48" stroke="#1B1036" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="128" cy="100" r="18" fill="#D63031" stroke="#8A1818" stroke-width="4"/>
+    <circle cx="95" cy="140" r="16" fill="#D63031" stroke="#8A1818" stroke-width="4"/>
+    <circle cx="150" cy="155" r="15" fill="#D63031" stroke="#8A1818" stroke-width="4"/>
+  </g>
+</svg>

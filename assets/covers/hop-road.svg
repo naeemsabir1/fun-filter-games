@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgHop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgHop)"/>
+  <rect x="0" y="240" width="320" height="120" fill="#334155"/>
+  <line x1="20" y1="300" x2="300" y2="300" stroke="#F8FAFC" stroke-width="8" stroke-dasharray="25 20"/>
+  <!-- Chick hopping -->
+  <ellipse cx="160" cy="190" rx="50" ry="46" fill="#FACC15" stroke="#181226" stroke-width="7"/>
+  <polygon points="160,185 185,192 160,200" fill="#EA580C" stroke="#181226" stroke-width="4"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgGobble" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="60%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgGobble)"/>
+  <!-- Conveyor track -->
+  <rect x="0" y="320" width="320" height="40" rx="8" fill="#1E1B4B" stroke="#0F172A" stroke-width="4"/>
+  <!-- Flying Candies -->
+  <g transform="translate(160 180) scale(1.3) translate(-60 -60)">
+    <circle cx="60" cy="60" r="50" fill="#EC4899" stroke="#181226" stroke-width="6"/>
+    <path d="M60 20 A40 40 0 0 1 100 60 A40 40 0 0 1 60 100 A40 40 0 0 1 20 60" stroke="#FDE047" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="translate(80 300) scale(0.7) translate(-60 -70)">
+    <circle cx="60" cy="55" r="32" fill="#10B981" stroke="#181226" stroke-width="5"/>
+    <ellipse cx="60" cy="98" rx="36" ry="34" fill="#10B981" stroke="#181226" stroke-width="5"/>
+  </g>
+  <g transform="translate(240 310) scale(0.7) translate(-70 -50)">
+    <polygon points="40,50 15,25 15,75" fill="#3B82F6" stroke="#181226" stroke-width="4"/>
+    <polygon points="100,50 125,25 125,75" fill="#3B82F6" stroke="#181226" stroke-width="4"/>
+    <ellipse cx="70" cy="50" rx="36" ry="28" fill="#60A5FA" stroke="#181226" stroke-width="5"/>
+  </g>
+</svg>

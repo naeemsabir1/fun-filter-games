@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgParrot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="60%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgParrot)"/>
+  <!-- Musical notes floating -->
+  <circle cx="80" cy="120" r="14" fill="#FACC15"/>
+  <circle cx="250" cy="160" r="12" fill="#FACC15"/>
+  <!-- Big Parrot center -->
+  <g transform="translate(160 250) scale(1.1) translate(-128 -128)">
+    <ellipse cx="128" cy="140" rx="55" ry="65" fill="#E60026" stroke="#181226" stroke-width="8"/>
+    <path d="M110 110 C140 100 170 135 155 175 Z" fill="#FACC15" stroke="#181226" stroke-width="6"/>
+    <circle cx="128" cy="80" r="42" fill="#E60026" stroke="#181226" stroke-width="8"/>
+    <ellipse cx="112" cy="74" rx="16" ry="14" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <circle cx="112" cy="74" r="6" fill="#181226"/>
+    <path d="M125 60 C155 60 170 75 160 90 L130 82 Z" fill="#F1F5F9" stroke="#181226" stroke-width="6"/>
+  </g>
+  <!-- Bongos bottom-left -->
+  <g transform="translate(100 370) scale(0.65) translate(-128 -128)">
+    <path d="M40 70 L55 180 L105 180 L120 70 Z" fill="#9A3412" stroke="#181226" stroke-width="7"/>
+    <path d="M136 70 L151 180 L201 180 L216 70 Z" fill="#9A3412" stroke="#181226" stroke-width="7"/>
+    <ellipse cx="80" cy="70" rx="42" ry="16" fill="#FEF08A" stroke="#181226" stroke-width="6"/>
+    <ellipse cx="176" cy="70" rx="42" ry="16" fill="#FEF08A" stroke="#181226" stroke-width="6"/>
+  </g>
+</svg>

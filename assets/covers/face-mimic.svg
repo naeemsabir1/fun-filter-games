@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <rect width="320" height="480" rx="36" fill="#560BAD"/>
+  <!-- Frame/Mirror effect -->
+  <rect x="24" y="24" width="272" height="432" rx="24" fill="none" stroke="#F72585" stroke-width="8"/>
+  <!-- Happy face -->
+  <circle cx="160" cy="210" r="110" fill="#FFCC00" stroke="#181226" stroke-width="9"/>
+  <ellipse cx="115" cy="140" rx="40" ry="20" fill="#FFF9D2" opacity="0.6" transform="rotate(-20 115 140)"/>
+  <!-- Eyes -->
+  <circle cx="115" cy="195" r="22" fill="#FFFFFF" stroke="#181226" stroke-width="7"/>
+  <circle cx="115" cy="195" r="11" fill="#181226"/>
+  <circle cx="111" cy="191" r="4" fill="#FFFFFF"/>
+  <path d="M180 200 Q200 178 220 200" stroke="#181226" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <!-- Big grin -->
+  <path d="M105 235 C105 285 215 285 215 235 Z" fill="#800F2F" stroke="#181226" stroke-width="8"/>
+  <path d="M115 238 Q160 250 205 238" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- Sparkles -->
+  <polygon points="60,90 66,104 80,110 66,116 60,130 54,116 40,110 54,104" fill="#FFD166"/>
+  <polygon points="260,330 265,342 278,347 265,352 260,364 255,352 242,347 255,342" fill="#4CC9F0"/>
+</svg>

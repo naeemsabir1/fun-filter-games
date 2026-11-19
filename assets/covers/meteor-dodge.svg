@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgMeteor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="60%" stop-color="#082F49"/>
+      <stop offset="100%" stop-color="#0C4A6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgMeteor)"/>
+  <!-- Giant falling meteor -->
+  <g transform="translate(160 160) scale(1.2) translate(-80 -100)">
+    <path d="M50 10 Q80 80 80 110 Q80 80 110 10 Q95 50 80 70 Q65 50 50 10 Z" fill="#F97316"/>
+    <path d="M65 30 Q80 80 80 110 Q80 80 95 30 Z" fill="#FDE047"/>
+    <circle cx="80" cy="135" r="48" fill="#78350F" stroke="#181226" stroke-width="6"/>
+  </g>
+  <!-- Shield bubble at bottom -->
+  <g transform="translate(160 380) scale(0.9) translate(-100 -100)">
+    <circle cx="100" cy="100" r="92" fill="#38BDF8" fill-opacity="0.25" stroke="#38BDF8" stroke-width="6"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="384" height="512">
+  <defs>
+    <linearGradient id="coverNn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2B2D42"/>
+      <stop offset="60%" stop-color="#181226"/>
+      <stop offset="100%" stop-color="#0F0C1B"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="360" height="488" rx="44" fill="url(#coverNn)" stroke="#181226" stroke-width="8"/>
+  <!-- Sliced flying watermelon and orange halves -->
+  <ellipse cx="140" cy="220" rx="60" ry="50" fill="#38B000" stroke="#181226" stroke-width="7"/>
+  <ellipse cx="260" cy="280" rx="50" ry="50" fill="#FF8500" stroke="#181226" stroke-width="7"/>
+  <!-- Giant Glowing Ninja Trail Slash -->
+  <path d="M50 420 Q192 250 330 110" stroke="#00F5D4" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M50 420 Q192 250 330 110" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+</svg>

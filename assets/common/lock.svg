@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="lockGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFCA28" />
+      <stop offset="100%" stop-color="#FF9800" />
+    </linearGradient>
+  </defs>
+  <!-- Shackle -->
+  <path d="M84 116 V76 C84 48 172 48 172 76 V116" fill="none" stroke="#D1D5DB" stroke-width="22" stroke-linecap="round" />
+  <path d="M84 116 V76 C84 48 172 48 172 76 V116" fill="none" stroke="#1B1036" stroke-width="8" stroke-linecap="round" />
+  <!-- Body -->
+  <rect x="56" y="112" width="144" height="114" rx="20" fill="url(#lockGrad)" stroke="#1B1036" stroke-width="8" />
+  <!-- Keyhole -->
+  <circle cx="128" cy="158" r="14" fill="#1B1036" />
+  <polygon points="123,164 133,164 136,190 120,190" fill="#1B1036" />
+</svg>

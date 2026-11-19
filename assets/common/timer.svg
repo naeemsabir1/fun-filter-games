@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="timeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF8A3D" />
+      <stop offset="100%" stop-color="#E64A00" />
+    </linearGradient>
+  </defs>
+  <rect x="112" y="24" width="32" height="20" rx="4" fill="#1B1036" />
+  <circle cx="128" cy="140" r="92" fill="url(#timeGrad)" stroke="#1B1036" stroke-width="8" />
+  <circle cx="128" cy="140" r="72" fill="#FFFFFF" stroke="#1B1036" stroke-width="6" />
+  <!-- Hands -->
+  <line x1="128" y1="140" x2="128" y2="92" stroke="#1B1036" stroke-width="8" stroke-linecap="round" />
+  <line x1="128" y1="140" x2="162" y2="140" stroke="#FF4D4D" stroke-width="6" stroke-linecap="round" />
+  <circle cx="128" cy="140" r="6" fill="#1B1036" />
+</svg>

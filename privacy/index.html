@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Fun Filter Games</title>
+  <meta name="description" content="Official Privacy Policy for Fun Filter Games. We believe in 100% on-device processing with zero data collection and zero cloud uploads.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="../assets/common/boop_smile.svg">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-wrap">
+      <a href="../" class="brand">
+        <img src="../assets/common/boop_smile.svg" alt="Boop Mascot">
+        <span>Fun Filter Games</span>
+      </a>
+      <nav class="nav-links">
+        <a href="../">Home</a>
+        <a href="../#features">Features</a>
+        <a href="../#pass">Fun Pass</a>
+        <a href="./" style="color:var(--ink);">Privacy</a>
+        <a href="../support/">Support</a>
+      </nav>
+      <a href="https://play.google.com/store/apps/details?id=com.funfiltergames.app" class="nav-btn" target="_blank" rel="noopener">
+        <span>Google Play</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective Date: November 20, 2026 · Last Updated: November 20, 2026</p>
+    </div>
+
+    <div class="content-body">
+      <p>Welcome to <strong>Fun Filter Games</strong> ("we", "our", or "us"). This Privacy Policy explains how our mobile application handles information when you use our app on Android devices. We designed Fun Filter Games with a fundamental commitment to privacy: <strong>everything you do in the app runs locally on your device hardware, and we collect no personal data</strong>.</p>
+
+      <h2>1. Who We Are</h2>
+      <p>Fun Filter Games is developed and published by <strong>{DEVELOPER_NAME}</strong>. If you have any questions, inquiries, or privacy requests regarding this application, you can reach us directly at: <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>.</p>
+
+      <h2>2. Device Hardware &amp; Permissions We Access</h2>
+      <p>To deliver interactive face-filter and voice-controlled games, Fun Filter Games requests access to two device features. Both permissions are used exclusively for real-time local processing:</p>
+      
+      <h3>A. Camera Permission</h3>
+      <ul>
+        <li><strong>Purpose:</strong> Used to display your live selfie view inside game filters and detect facial gestures (such as blinking, nodding, smiling, mouth opening, or head tilting) through an on-device machine learning model (MediaPipe Face Landmarker).</li>
+        <li><strong>On-Device Processing:</strong> Video frames from your camera are processed entirely in temporary device memory (RAM) in real time. Individual camera frames are never transmitted over the internet, never sent to external servers, and never retained once processed.</li>
+        <li><strong>Optional Touch Mode:</strong> If you deny camera permission, the app automatically switches to Touch Mode, allowing you to control games via finger drag and tap.</li>
+      </ul>
+
+      <h3>B. Microphone Permission</h3>
+      <ul>
+        <li><strong>Purpose:</strong> Used to detect acoustic volume (screaming, shouting, humming, whispers, or puffs of air) and pitch frequency for voice-controlled games (e.g., Scream Chicken, Treble &amp; Bass, Rocket Roar).</li>
+        <li><strong>On-Device Processing:</strong> Audio samples are analysed purely for loudness (decibels) and frequency (pitch Hz) using local Web Audio and offline autocorrelation algorithms. Audio streams are never transmitted off your device and are never uploaded to any remote server.</li>
+      </ul>
+
+      <h2>3. Gameplay Video Recordings &amp; Storage</h2>
+      <ul>
+        <li><strong>Local Capture:</strong> When you record a gameplay round, the video clip (combining your camera feed and game stickers) is rendered locally on your device.</li>
+        <li><strong>Gallery Saving:</strong> When you tap "Save", the video is transcoded and stored directly in your phone's public gallery (specifically under <code>Movies/FunFilterGames</code>) via Android's MediaStore API.</li>
+        <li><strong>Social Sharing:</strong> When you tap quick-share targets (such as TikTok, Instagram, WhatsApp, or Snapchat) or the Android system share sheet ("More..."), the video file is handed directly to that application through Android's secure <code>FileProvider</code>. We have no access to your social media accounts or posts.</li>
+        <li><strong>No Cloud Storage:</strong> We do not operate any backend servers, cloud databases, or content delivery networks to store your video clips. If you do not save a recording, it is discarded immediately.</li>
+      </ul>
+
+      <h2>4. On-Device Speech Recognition (Say The Color)</h2>
+      <p>For the specific game <em>G09: Say The Color</em>, the application utilizes Android's native <strong>on-device speech recognizer</strong> (<code>SpeechRecognizer.createOnDeviceSpeechRecognizer</code>, available on Android 12+ / API 31+). This service executes completely offline using on-device language models. Audio data used for speech recognition is never routed through any external cloud voice service.</p>
+
+      <h2>5. In-App Subscriptions &amp; Purchases</h2>
+      <p>Fun Filter Games offers an optional subscription ("Fun Pass") to unlock all games and remove recording watermarks. All financial transactions, subscriptions, and renewals are handled entirely by <strong>Google Play Billing</strong>. We do not collect, process, or store credit card numbers, billing addresses, or personal financial details. Google Play communicates only purchase entitlement status (active or inactive) to the app.</p>
+
+      <h2>6. No Analytics, Tracking, Accounts, or Advertising</h2>
+      <ul>
+        <li><strong>No User Accounts:</strong> You do not need to register, log in, or provide an email address, phone number, or password to play.</li>
+        <li><strong>No Third-Party Analytics SDKs:</strong> We do not include third-party tracking libraries, advertising networks, crash reporting SDKs, or behavioral trackers.</li>
+        <li><strong>No Network Communication:</strong> Except for communication between the official Google Play Billing library and Google's servers to verify subscription purchases, our application makes zero network requests.</li>
+      </ul>
+
+      <h2>7. Local Data &amp; Data Deletion</h2>
+      <p>The application stores your high scores, sticker unlocks, streak counts, and settings locally on your device using HTML5 LocalStorage. This data never leaves your device and is permanently deleted whenever you clear the app's data in Android Settings or uninstall the application.</p>
+
+      <h2>8. Children's Privacy</h2>
+      <p>Fun Filter Games is designed for a general audience and is targeted to users aged 13 and older. We do not knowingly collect or solicit any personal information from children under the age of 13. If you believe that a child has provided us with personal information, please contact us immediately so we can take appropriate measures.</p>
+
+      <h2>9. Changes to This Privacy Policy</h2>
+      <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this Privacy Policy periodically for any updates.</p>
+
+      <h2>10. Contact Us</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact our support team at:</p>
+      <p><strong>Email:</strong> <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a><br>
+      <strong>Developer:</strong> {DEVELOPER_NAME}</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-wrap">
+      <div>
+        <p>© 2026 {DEVELOPER_NAME}. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../">Home</a>
+        <a href="./">Privacy Policy</a>
+        <a href="../terms/">Terms of Use</a>
+        <a href="../support/">Support &amp; FAQ</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

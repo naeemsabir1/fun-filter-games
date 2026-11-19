@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgTower" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgTower)"/>
+  <rect x="70" y="340" width="180" height="45" rx="8" fill="#7C3AED" stroke="#181226" stroke-width="6"/>
+  <rect x="85" y="290" width="150" height="45" rx="8" fill="#EA580C" stroke="#181226" stroke-width="6"/>
+  <rect x="95" y="240" width="130" height="45" rx="8" fill="#0284C7" stroke="#181226" stroke-width="6"/>
+  <rect x="105" y="190" width="110" height="45" rx="8" fill="#FACC15" stroke="#181226" stroke-width="6"/>
+</svg>

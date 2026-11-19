@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="oceanCover" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="60%" stop-color="#075985"/>
+      <stop offset="100%" stop-color="#0C4A6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#oceanCover)"/>
+  <!-- Bubbles floating -->
+  <circle cx="60" cy="140" r="18" fill="#E0F2FE" opacity="0.4"/>
+  <circle cx="260" cy="220" r="14" fill="#E0F2FE" opacity="0.4"/>
+  <!-- Fish swimming through center -->
+  <g transform="translate(160 240) scale(0.9) translate(-128 -80)">
+    <polygon points="50,80 15,35 25,80 15,125" fill="#0284C7" stroke="#181226" stroke-width="6"/>
+    <ellipse cx="140" cy="80" rx="90" ry="55" fill="#38BDF8" stroke="#181226" stroke-width="8"/>
+    <path d="M75 80 C75 125 185 125 210 80 Z" fill="#E0F2FE"/>
+    <circle cx="195" cy="65" r="14" fill="#FFFFFF" stroke="#181226" stroke-width="5"/>
+    <circle cx="198" cy="65" r="7" fill="#181226"/>
+  </g>
+  <!-- Big shark jaws framed around center -->
+  <g transform="translate(160 170) scale(0.9) translate(-128 -48)">
+    <polygon points="62,26 76,75 90,24" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <polygon points="112,20 128,85 144,20" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <polygon points="166,24 180,75 194,26" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+  </g>
+  <g transform="translate(160 310) scale(0.9) translate(-128 -48)">
+    <polygon points="66,70 80,20 94,72" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <polygon points="114,75 128,10 142,75" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <polygon points="162,72 176,20 190,70" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+  </g>
+</svg>

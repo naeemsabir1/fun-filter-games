@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgMouse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="60%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgMouse)"/>
+  <!-- Maze paths -->
+  <path d="M40 80 L180 80 L180 220 L280 220 L280 400" stroke="#FEF08A" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Cheese at bottom -->
+  <g transform="translate(240 380) scale(1.1) translate(-60 -50)">
+    <polygon points="20,80 105,80 95,25 20,40" fill="#FACC15" stroke="#181226" stroke-width="5"/>
+  </g>
+  <!-- Mouse at top -->
+  <g transform="translate(80 140) scale(1.1) translate(-60 -60)">
+    <ellipse cx="60" cy="70" rx="38" ry="34" fill="#CBD5E1" stroke="#181226" stroke-width="6"/>
+  </g>
+</svg>

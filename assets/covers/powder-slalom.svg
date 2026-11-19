@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgSlalom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="60%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#BAE6FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgSlalom)"/>
+  <polygon points="40,240 20,290 60,290" fill="#15803D" stroke="#181226" stroke-width="4"/>
+  <polygon points="280,220 260,270 300,270" fill="#15803D" stroke="#181226" stroke-width="4"/>
+  <circle cx="160" cy="240" r="32" fill="#0284C7" stroke="#181226" stroke-width="6"/>
+  <circle cx="160" cy="205" r="24" fill="#FACC15" stroke="#181226" stroke-width="5"/>
+  <line x1="130" y1="270" x2="130" y2="320" stroke="#EF4444" stroke-width="7" stroke-linecap="round"/>
+  <line x1="190" y1="270" x2="190" y2="320" stroke="#EF4444" stroke-width="7" stroke-linecap="round"/>
+</svg>

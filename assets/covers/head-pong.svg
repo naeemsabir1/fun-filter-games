@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgPong" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="60%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgPong)"/>
+  <!-- Row of colorful bricks -->
+  <g transform="translate(60 100) scale(0.7) translate(-50 -25)"><rect x="5" y="5" width="90" height="40" rx="8" fill="#EF4444" stroke="#181226" stroke-width="4"/></g>
+  <g transform="translate(130 100) scale(0.7) translate(-50 -25)"><rect x="5" y="5" width="90" height="40" rx="8" fill="#EAB308" stroke="#181226" stroke-width="4"/></g>
+  <g transform="translate(200 100) scale(0.7) translate(-50 -25)"><rect x="5" y="5" width="90" height="40" rx="8" fill="#22C55E" stroke="#181226" stroke-width="4"/></g>
+  <g transform="translate(270 100) scale(0.7) translate(-50 -25)"><rect x="5" y="5" width="90" height="40" rx="8" fill="#3B82F6" stroke="#181226" stroke-width="4"/></g>
+  <!-- Bouncing ball -->
+  <circle cx="160" cy="220" r="26" fill="#FACC15" stroke="#181226" stroke-width="5"/>
+  <!-- Paddle -->
+  <g transform="translate(160 380) scale(0.9) translate(-120 -30)">
+    <rect x="10" y="10" width="220" height="40" rx="20" fill="#3B82F6" stroke="#181226" stroke-width="6"/>
+  </g>
+</svg>

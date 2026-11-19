@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgPop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4C0519"/>
+      <stop offset="60%" stop-color="#9F1239"/>
+      <stop offset="100%" stop-color="#BE123C"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgPop)"/>
+  <!-- Flying popped popcorns -->
+  <g transform="translate(80 140) scale(0.65) translate(-64 -64)">
+    <path d="M40 35 C20 40 20 70 40 85 C30 110 65 120 85 105 C110 120 125 90 110 70 C125 45 100 25 80 40 C65 20 45 20 40 35 Z" fill="#FFFBEB" stroke="#181226" stroke-width="6"/>
+  </g>
+  <g transform="translate(240 180) scale(0.65) translate(-64 -64)">
+    <path d="M40 35 C20 40 20 70 40 85 C30 110 65 120 85 105 C110 120 125 90 110 70 C125 45 100 25 80 40 C65 20 45 20 40 35 Z" fill="#FACC15" stroke="#181226" stroke-width="6"/>
+  </g>
+  <!-- Cinema bucket at bottom -->
+  <g transform="translate(160 380) scale(0.9) translate(-128 -110)">
+    <polygon points="50,20 206,20 185,200 71,200" fill="#EF4444" stroke="#181226" stroke-width="8"/>
+    <polygon points="76,20 102,20 96,200 75,200" fill="#FFFFFF"/>
+    <polygon points="128,20 154,20 144,200 123,200" fill="#FFFFFF"/>
+    <polygon points="180,20 206,20 185,200 165,200" fill="#FFFFFF"/>
+    <ellipse cx="128" cy="20" rx="80" ry="14" fill="#FEE2E2" stroke="#181226" stroke-width="6"/>
+  </g>
+</svg>

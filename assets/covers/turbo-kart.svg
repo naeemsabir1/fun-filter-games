@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgKart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#991B1B"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgKart)"/>
+  <!-- Track horizon -->
+  <polygon points="120,200 200,200 280,480 40,480" fill="#334155"/>
+  <!-- Kart rear -->
+  <path d="M110 320 L210 320 L195 400 L125 400 Z" fill="#EF4444" stroke="#181226" stroke-width="7"/>
+  <circle cx="160" cy="315" r="24" fill="#FACC15" stroke="#181226" stroke-width="5"/>
+  <!-- Turbo flame -->
+  <polygon points="160,450 140,405 160,395 180,405" fill="#38BDF8"/>
+</svg>

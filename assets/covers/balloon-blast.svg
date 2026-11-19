@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="coverGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A0CA3"/>
+      <stop offset="50%" stop-color="#7209B7"/>
+      <stop offset="100%" stop-color="#F72585"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#coverGrad)"/>
+  <!-- Big Green Target Ring -->
+  <circle cx="160" cy="220" r="105" fill="none" stroke="#06D6A0" stroke-width="16" stroke-dasharray="18 14"/>
+  <circle cx="160" cy="220" r="88" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+  <!-- Inflating Balloon Centered -->
+  <path d="M160 130 C205 130 236 175 236 220 C236 265 195 295 160 295 C125 295 84 265 84 220 C84 175 115 130 160 130 Z" fill="#FF0054" stroke="#181226" stroke-width="9"/>
+  <ellipse cx="125" cy="175" rx="34" ry="18" fill="#FFFFFF" opacity="0.6" transform="rotate(-30 125 175)"/>
+  <polygon points="160,295 146,315 174,315" fill="#9E0038" stroke="#181226" stroke-width="5"/>
+  <path d="M160 315 Q150 340 165 365" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>

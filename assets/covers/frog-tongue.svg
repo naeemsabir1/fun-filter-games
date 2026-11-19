@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="384" height="512">
+  <defs>
+    <linearGradient id="coverFt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9EF01A"/>
+      <stop offset="50%" stop-color="#38B000"/>
+      <stop offset="100%" stop-color="#004B23"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="360" height="488" rx="44" fill="url(#coverFt)" stroke="#181226" stroke-width="8"/>
+  <!-- Big friendly cartoon frog sitting in center -->
+  <g fill="#52B788" stroke="#181226" stroke-width="8" stroke-linejoin="round">
+    <ellipse cx="192" cy="330" rx="100" ry="80"/>
+    <circle cx="140" cy="235" r="40" fill="#52B788"/>
+    <circle cx="244" cy="235" r="40" fill="#52B788"/>
+  </g>
+  <circle cx="140" cy="235" r="26" fill="#FFFFFF"/>
+  <circle cx="244" cy="235" r="26" fill="#FFFFFF"/>
+  <circle cx="146" cy="235" r="13" fill="#181226"/>
+  <circle cx="250" cy="235" r="13" fill="#181226"/>
+  <!-- Zipping pink tongue into the air -->
+  <path d="M192 360 C230 320 280 200 290 90" stroke="#FF5277" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <circle cx="290" cy="90" r="16" fill="#FF385C" stroke="#181226" stroke-width="5"/>
+  <!-- Golden butterfly at tongue tip -->
+  <ellipse cx="300" cy="75" rx="22" ry="14" fill="#FFD166" stroke="#181226" stroke-width="4"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="crownGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE066" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <path d="M44 196 L212 196 L228 84 L172 124 L128 54 L84 124 L28 84 Z" fill="url(#crownGrad)" stroke="#1B1036" stroke-width="8" stroke-linejoin="round" />
+  <!-- Jewels -->
+  <circle cx="28" cy="80" r="10" fill="#FF3D7F" stroke="#1B1036" stroke-width="4" />
+  <circle cx="128" cy="50" r="12" fill="#45B7FF" stroke="#1B1036" stroke-width="4" />
+  <circle cx="228" cy="80" r="10" fill="#FF3D7F" stroke="#1B1036" stroke-width="4" />
+  <ellipse cx="128" cy="170" rx="60" ry="10" fill="#FFFFFF" opacity="0.3" />
+</svg>

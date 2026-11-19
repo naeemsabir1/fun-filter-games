@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgBuild" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgBuild)"/>
+  <!-- Head outline -->
+  <ellipse cx="160" cy="230" rx="80" ry="100" fill="#FED7AA" stroke="#181226" stroke-width="7"/>
+  <!-- Hair top -->
+  <path d="M80 180 C80 120 120 110 160 110 C200 110 240 120 240 180 C220 160 180 150 160 155 C140 150 100 160 80 180 Z" fill="#92400E" stroke="#181226" stroke-width="6"/>
+  <!-- Face parts falling in -->
+  <circle cx="130" cy="215" r="18" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+  <circle cx="130" cy="215" r="8" fill="#2563EB"/>
+  <circle cx="190" cy="215" r="18" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+  <circle cx="190" cy="215" r="8" fill="#2563EB"/>
+</svg>

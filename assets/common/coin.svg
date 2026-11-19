@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="coinGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF066" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="98" fill="url(#coinGrad)" stroke="#1B1036" stroke-width="8" />
+  <circle cx="128" cy="128" r="76" fill="none" stroke="#FFA000" stroke-width="6" />
+  <!-- Star emblem inside coin -->
+  <path d="M128 72 L136 104 L168 108 L142 128 L150 160 L128 142 L106 160 L114 128 L88 108 L120 104 Z" fill="#FFE24D" stroke="#1B1036" stroke-width="5" stroke-linejoin="round" />
+  <ellipse cx="94" cy="74" rx="14" ry="7" transform="rotate(-30 94 74)" fill="#FFFFFF" opacity="0.75" />
+</svg>

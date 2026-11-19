@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="starGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE44D" />
+      <stop offset="100%" stop-color="#FFA800" />
+    </linearGradient>
+  </defs>
+  <path d="M128 22 L158 88 L232 96 L176 146 L192 218 L128 180 L64 218 L80 146 L24 96 L98 88 Z" fill="url(#starGrad)" stroke="#1B1036" stroke-width="8" stroke-linejoin="round" />
+  <!-- Gloss highlight -->
+  <path d="M128 42 L146 94 L196 100 L158 134 L128 42 Z" fill="#FFFFFF" opacity="0.45" />
+  <circle cx="128" cy="80" r="8" fill="#FFFFFF" opacity="0.8" />
+</svg>

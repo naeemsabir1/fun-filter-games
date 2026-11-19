@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="boopBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE566" />
+      <stop offset="100%" stop-color="#FFC107" />
+    </linearGradient>
+  </defs>
+  <!-- Tiny green sprout on head -->
+  <path d="M128 48 C128 28 146 16 160 22 C164 36 148 46 132 48 Z" fill="#2CD47F" stroke="#1B1036" stroke-width="6" stroke-linejoin="round" />
+  <path d="M128 48 C128 32 112 24 100 30 C96 42 110 48 124 48 Z" fill="#22B868" stroke="#1B1036" stroke-width="6" stroke-linejoin="round" />
+  <!-- Body blob -->
+  <path d="M128 48 C184 48 224 88 224 144 C224 200 180 232 128 232 C76 232 32 200 32 144 C32 88 72 48 128 48 Z" fill="url(#boopBody)" stroke="#1B1036" stroke-width="8" stroke-linejoin="round" />
+  <!-- Top gloss -->
+  <path d="M84 72 C104 58 152 58 172 72 C152 64 104 64 84 72 Z" fill="#FFFFFF" opacity="0.6" />
+  <!-- Cheeks -->
+  <circle cx="68" cy="162" r="14" fill="#FF8BA7" opacity="0.6" />
+  <circle cx="188" cy="162" r="14" fill="#FF8BA7" opacity="0.6" />
+  
+  <circle cx="94" cy="130" r="18" fill="#FFFFFF" stroke="#1B1036" stroke-width="6" />
+  <circle cx="96" cy="130" r="10" fill="#1B1036" />
+  <circle cx="92" cy="126" r="4" fill="#FFFFFF" />
+  <circle cx="162" cy="130" r="18" fill="#FFFFFF" stroke="#1B1036" stroke-width="6" />
+  <circle cx="160" cy="130" r="10" fill="#1B1036" />
+  <circle cx="156" cy="126" r="4" fill="#FFFFFF" />
+  <!-- Open mouth -->
+  <path d="M116 156 Q128 152 140 156 Q140 186 128 186 Q116 186 116 156 Z" fill="#9E1B46" stroke="#1B1036" stroke-width="6" stroke-linejoin="round" />
+  <ellipse cx="128" cy="178" rx="8" ry="4" fill="#FF708F" />
+
+</svg>

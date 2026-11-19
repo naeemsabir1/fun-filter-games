@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgHoop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgHoop)"/>
+  <!-- Backboard and hoop -->
+  <rect x="80" y="80" width="160" height="110" rx="8" fill="#F8FAFC" stroke="#181226" stroke-width="6"/>
+  <ellipse cx="160" cy="170" rx="55" ry="15" fill="none" stroke="#EA580C" stroke-width="7"/>
+  <!-- Ball flying -->
+  <circle cx="160" cy="300" r="45" fill="#F97316" stroke="#181226" stroke-width="6"/>
+  <line x1="115" y1="300" x2="205" y2="300" stroke="#181226" stroke-width="5"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="60%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#BAE6FD"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="ringCover" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+  <!-- Background sky -->
+  <rect width="540" height="960" fill="url(#sky)"/>
+  <!-- Horizon mountains -->
+  <polygon points="0,520 110,480 230,520 380,470 540,520 540,560 0,560" fill="#0369A1" opacity="0.6"/>
+  <!-- 3D Perspective Track -->
+  <polygon points="230,520 310,520 490,960 50,960" fill="url(#track)" stroke="#1A1A24" stroke-width="6"/>
+  <!-- Red/white kerbs -->
+  <polygon points="210,520 230,520 50,960 10,960" fill="#EF4444"/>
+  <polygon points="310,520 330,520 530,960 490,960" fill="#EF4444"/>
+  <!-- Approaching Board with cutout hole -->
+  <g transform="translate(160, 480) scale(0.85)">
+    <rect x="0" y="0" width="260" height="180" rx="16" fill="#A0652C" stroke="#1A1A24" stroke-width="8"/>
+    <circle cx="130" cy="90" r="50" fill="#0F172A" stroke="#1A1A24" stroke-width="8"/>
+    <!-- Stroop text graphic: word "RED" in BLUE ink -->
+    <path d="M 60 40 L 75 40 Q 85 40 85 50 Q 85 60 75 60 L 60 60 Z M 68 46 L 68 54 L 74 54 Q 78 54 78 50 Q 78 46 74 46 Z M 75 60 L 85 75" stroke="#38BDF8" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 95 40 L 95 75 M 95 40 L 115 40 M 95 57 L 110 57 M 95 75 L 115 75" stroke="#38BDF8" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 125 40 L 138 40 Q 150 40 150 57 Q 150 75 138 75 L 125 75 Z M 133 48 L 133 67 L 138 67 Q 142 67 142 57 Q 142 48 138 48 Z" stroke="#38BDF8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Player Target Ring in foreground -->
+  <g transform="translate(150, 640)">
+    <path d="M 120 20 A 100 100 0 1 0 120 220 A 100 100 0 1 0 120 20 Z M 120 56 A 64 64 0 1 1 120 184 A 64 64 0 1 1 120 56 Z" fill="url(#ringCover)" stroke="#1A1A24" stroke-width="10" stroke-linejoin="round"/>
+    <circle cx="120" cy="120" r="40" fill="#38BDF8" opacity="0.3"/>
+  </g>
+  <!-- Floating sound burst / comic elements -->
+  <circle cx="80" cy="740" r="28" fill="#FBBF24" stroke="#1A1A24" stroke-width="4"/>
+  <circle cx="460" cy="710" r="32" fill="#F43F5E" stroke="#1A1A24" stroke-width="4"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgLaser" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#991B1B"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgLaser)"/>
+  <ellipse cx="160" cy="160" rx="50" ry="32" fill="#22C55E" stroke="#181226" stroke-width="6"/>
+  <!-- Beams converging -->
+  <line x1="90" y1="360" x2="160" y2="175" stroke="#F87171" stroke-width="10"/>
+  <line x1="90" y1="360" x2="160" y2="175" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="230" y1="360" x2="160" y2="175" stroke="#F87171" stroke-width="10"/>
+  <line x1="230" y1="360" x2="160" y2="175" stroke="#FFFFFF" stroke-width="4"/>
+</svg>

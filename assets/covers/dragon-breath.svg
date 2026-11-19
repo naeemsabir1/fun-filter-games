@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgDragon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#450A0A"/>
+      <stop offset="60%" stop-color="#7F1D1D"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgDragon)"/>
+  <!-- Giant roaring flame -->
+  <g transform="translate(160 270) scale(1.6) translate(-80 -80)">
+    <path d="M80 5 C105 40 145 65 145 105 C145 138 116 155 80 155 C44 155 15 138 15 105 C15 65 55 40 80 5 Z" fill="#EA580C" stroke="#181226" stroke-width="6"/>
+    <path d="M80 40 C95 65 120 75 120 100 C120 120 100 135 80 135 C60 135 40 120 40 100 C40 75 65 65 80 40 Z" fill="#FDE047" stroke="#181226" stroke-width="4"/>
+  </g>
+  <!-- Horns at top -->
+  <g transform="translate(160 90) scale(0.9) translate(-140 -70)">
+    <path d="M70 120 C50 80 40 40 20 20 C45 35 75 70 85 115 Z" fill="#EF4444" stroke="#181226" stroke-width="6"/>
+    <path d="M210 120 C230 80 240 40 260 20 C235 35 205 70 195 115 Z" fill="#EF4444" stroke="#181226" stroke-width="6"/>
+  </g>
+</svg>

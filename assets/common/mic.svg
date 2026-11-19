@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="micGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#45B7FF" />
+      <stop offset="100%" stop-color="#0077D4" />
+    </linearGradient>
+  </defs>
+  <!-- Capsule -->
+  <rect x="96" y="32" width="64" height="112" rx="32" fill="url(#micGrad)" stroke="#1B1036" stroke-width="8" />
+  <!-- Cradle -->
+  <path d="M72 108 C72 152 184 152 184 108" fill="none" stroke="#1B1036" stroke-width="10" stroke-linecap="round" />
+  <!-- Stem & base -->
+  <line x1="128" y1="152" x2="128" y2="198" stroke="#1B1036" stroke-width="10" stroke-linecap="round" />
+  <line x1="90" y1="198" x2="166" y2="198" stroke="#1B1036" stroke-width="10" stroke-linecap="round" />
+  <circle cx="114" cy="56" r="6" fill="#FFFFFF" opacity="0.8" />
+</svg>

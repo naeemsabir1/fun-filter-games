@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="60%" stop-color="#312E81"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgGrad)"/>
+  <!-- Sound waves -->
+  <circle cx="160" cy="240" r="140" fill="none" stroke="#60A5FA" stroke-width="6" stroke-dasharray="16 12" opacity="0.4"/>
+  <circle cx="160" cy="240" r="115" fill="none" stroke="#93C5FD" stroke-width="6" stroke-dasharray="16 12" opacity="0.6"/>
+  <!-- Wine Glass -->
+  <g transform="translate(160 250) scale(0.9) translate(-128 -128)">
+    <ellipse cx="128" cy="225" rx="55" ry="12" fill="#E2F7FF" stroke="#181226" stroke-width="7"/>
+    <rect x="122" y="145" width="12" height="82" rx="4" fill="#E2F7FF" stroke="#181226" stroke-width="6"/>
+    <path d="M60 40 C60 145 196 145 196 40 Z" fill="#E2F7FF" stroke="#181226" stroke-width="8"/>
+    <ellipse cx="128" cy="40" rx="68" ry="14" fill="#FFFFFF" stroke="#181226" stroke-width="6"/>
+    <path d="M128 45 L135 75 L120 95 L138 120 L130 138" stroke="#181226" stroke-width="7" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Flying shards -->
+  <polygon points="70,140 90,130 95,150 75,160" fill="#BAE6FD" stroke="#181226" stroke-width="3"/>
+  <polygon points="240,150 260,140 265,160 245,170" fill="#BAE6FD" stroke="#181226" stroke-width="3"/>
+</svg>

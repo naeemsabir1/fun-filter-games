@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="60%" stop-color="#4C0519"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgGrad)"/>
+  <!-- Boxing ring ropes -->
+  <line x1="0" y1="180" x2="320" y2="180" stroke="#FDE047" stroke-width="8"/>
+  <line x1="0" y1="240" x2="320" y2="240" stroke="#FDE047" stroke-width="8"/>
+  <line x1="0" y1="300" x2="320" y2="300" stroke="#FDE047" stroke-width="8"/>
+  <!-- Boss gorilla being punched -->
+  <g transform="translate(160 210) scale(0.9) translate(-128 -128)">
+    <ellipse cx="128" cy="170" rx="95" ry="60" fill="#1E293B" stroke="#181226" stroke-width="8"/>
+    <path d="M75 110 C75 55 181 55 181 110 C181 160 75 160 75 110 Z" fill="#1E293B" stroke="#181226" stroke-width="8"/>
+    <ellipse cx="128" cy="140" rx="42" ry="24" fill="#94A3B8" stroke="#181226" stroke-width="6"/>
+  </g>
+  <!-- Comic BAM starburst -->
+  <g transform="translate(200 240) scale(0.7) translate(-128 -128)">
+    <polygon points="128,10 160,65 220,40 195,100 250,130 190,160 215,225 155,195 135,250 105,195 45,225 70,160 10,130 65,100 40,40 100,65" fill="#FFD166" stroke="#181226" stroke-width="8"/>
+  </g>
+  <!-- Red Boxing Glove flying in from bottom-left -->
+  <g transform="translate(120 290) scale(0.85) rotate(-25) translate(-128 -128)">
+    <rect x="35" y="110" width="45" height="75" rx="10" fill="#FFFFFF" stroke="#181226" stroke-width="7"/>
+    <path d="M70 120 C70 65 170 55 195 90 C225 125 210 185 165 195 C120 205 70 180 70 120 Z" fill="#FF385C" stroke="#181226" stroke-width="8"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="tropGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFEA66" />
+      <stop offset="100%" stop-color="#FF9E00" />
+    </linearGradient>
+  </defs>
+  <!-- Base -->
+  <rect x="76" y="200" width="104" height="32" rx="6" fill="#4B3B6B" stroke="#1B1036" stroke-width="8" />
+  <rect x="94" y="174" width="68" height="28" fill="#2E2344" stroke="#1B1036" stroke-width="8" />
+  <!-- Handles -->
+  <path d="M72 74 C36 74 36 130 74 134" fill="none" stroke="#FFB300" stroke-width="14" stroke-linecap="round" />
+  <path d="M72 74 C36 74 36 130 74 134" fill="none" stroke="#1B1036" stroke-width="6" stroke-linecap="round" />
+  <path d="M184 74 C220 74 220 130 182 134" fill="none" stroke="#FFB300" stroke-width="14" stroke-linecap="round" />
+  <path d="M184 74 C220 74 220 130 182 134" fill="none" stroke="#1B1036" stroke-width="6" stroke-linecap="round" />
+  <!-- Cup body -->
+  <path d="M68 44 L188 44 C188 110 160 160 128 174 C96 160 68 110 68 44 Z" fill="url(#tropGrad)" stroke="#1B1036" stroke-width="8" stroke-linejoin="round" />
+  <!-- Star on cup -->
+  <polygon points="128,80 134,96 150,98 138,110 142,126 128,116 114,126 118,110 106,98 122,96" fill="#FFFFFF" opacity="0.85" />
+</svg>

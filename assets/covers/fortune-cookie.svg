@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgCookie" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgCookie)"/>
+  <path d="M50 240 Q160 90 270 240 Q160 190 50 240 Z" fill="#FEF08A" stroke="#181226" stroke-width="8"/>
+  <rect x="70" y="270" width="180" height="50" rx="6" fill="#F8FAFC" stroke="#181226" stroke-width="5"/>
+</svg>

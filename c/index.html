@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Can You Beat Me? — Fun Filter Games Challenge</title>
+  <meta name="description" content="A friend has challenged you to beat their score in Fun Filter Games! Play for free on Google Play.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="../assets/common/boop_smile.svg">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-wrap">
+      <a href="../" class="brand">
+        <img src="../assets/common/boop_smile.svg" alt="Boop Mascot">
+        <span>Fun Filter Games</span>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.funfiltergames.app" class="nav-btn" target="_blank" rel="noopener">
+        <span>Get the App</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="challenge-wrap">
+    <div class="challenge-card">
+      <div style="font-size:38px; margin-bottom:8px;">⚔️ 🔥 🎮</div>
+      <h1 class="challenge-title" id="challengeTitle">CAN YOU BEAT ME?</h1>
+      <p style="color:var(--ink-dim); margin-bottom:16px;">A friend sent you a direct face-filter challenge!</p>
+
+      <div class="challenge-score-box" id="scoreBadge">
+        Score to Beat: <span id="targetScore">100</span>
+      </div>
+
+      <div>
+        <img src="../assets/covers/scream-chicken.svg" alt="Game Cover" class="challenge-cover" id="gameCover">
+      </div>
+
+      <div style="margin-top:20px;">
+        <a href="https://play.google.com/store/apps/details?id=com.funfiltergames.app" class="btn-primary" id="playBtn" style="width:100%;" target="_blank" rel="noopener">
+          <span>ACCEPT CHALLENGE</span>
+        </a>
+      </div>
+
+      <p style="color:var(--ink-muted); font-size:13.5px; margin-top:16px;">
+        Free on Google Play · 100% on-device AI · No controllers needed
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-wrap">
+      <div>
+        <p>© 2026 {DEVELOPER_NAME}. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../">Home</a>
+        <a href="../privacy/">Privacy Policy</a>
+        <a href="../terms/">Terms of Use</a>
+        <a href="../support/">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Parse query params g (gameId), s (targetScore), k (seed) per A11.3
+    const params = new URLSearchParams(window.location.search);
+    const gameId = (params.get('g') || 'scream-chicken').toLowerCase().replace(/[^a-z0-9_-]/g, '');
+    const score = parseInt(params.get('s') || '100', 10);
+    const seed = parseInt(params.get('k') || '42', 10);
+
+    // Format game title from id (e.g. scream-chicken -> Scream Chicken)
+    const formattedName = gameId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+    document.getElementById('challengeTitle').textContent = `BEAT ${score} IN ${formattedName.toUpperCase()}!`;
+    document.getElementById('targetScore').textContent = score;
+
+    const coverImg = document.getElementById('gameCover');
+    coverImg.src = `../assets/covers/${gameId}.svg`;
+    coverImg.alt = formattedName;
+    coverImg.onerror = () => {
+      coverImg.src = '../assets/covers/scream-chicken.svg';
+    };
+
+    // Google Play install referrer with campaign parameters per A11.3
+    const playUrl = `https://play.google.com/store/apps/details?id=com.funfiltergames.app&referrer=utm_source%3Dchallenge%26utm_content%3D${gameId}_${score}_${seed}`;
+    document.getElementById('playBtn').href = playUrl;
+  </script>
+</body>
+</html>

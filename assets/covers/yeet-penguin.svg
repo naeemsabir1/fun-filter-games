@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#03045E"/>
+      <stop offset="60%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#90E0EF"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#skyGrad)"/>
+  <!-- Ice bottom -->
+  <rect y="380" width="320" height="100" fill="#CAF0F8" stroke="#181226" stroke-width="8"/>
+  <!-- Distance flag -->
+  <line x1="260" y1="330" x2="260" y2="400" stroke="#181226" stroke-width="6"/>
+  <polygon points="262,335 305,352 262,370" fill="#FF385C" stroke="#181226" stroke-width="5"/>
+  <!-- Soaring penguin -->
+  <g transform="translate(160 220) scale(1.1) rotate(-30) translate(-128 -128)">
+    <path d="M80 120 C40 85 50 65 95 95 Z" fill="#181226" stroke="#181226" stroke-width="7"/>
+    <path d="M176 120 C216 85 206 65 161 95 Z" fill="#181226" stroke="#181226" stroke-width="7"/>
+    <ellipse cx="128" cy="130" rx="55" ry="65" fill="#181226" stroke="#181226" stroke-width="8"/>
+    <ellipse cx="128" cy="135" rx="38" ry="50" fill="#FFFFFF"/>
+    <circle cx="110" cy="100" r="10" fill="#FFFFFF"/>
+    <circle cx="110" cy="100" r="5" fill="#181226"/>
+    <circle cx="146" cy="100" r="10" fill="#FFFFFF"/>
+    <circle cx="146" cy="100" r="5" fill="#181226"/>
+    <polygon points="128,110 116,122 140,122" fill="#FF9E00" stroke="#181226" stroke-width="4"/>
+  </g>
+</svg>

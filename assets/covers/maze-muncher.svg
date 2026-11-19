@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgMaze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="60%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgMaze)"/>
+  <!-- Maze neon wall lines -->
+  <path d="M40 80 L280 80 L280 200 L200 200" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M40 280 L120 280 L120 400 L280 400" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <!-- Muncher and Chaser -->
+  <g transform="translate(120 230) scale(0.9) translate(-70 -75)">
+    <circle cx="70" cy="75" r="52" fill="#FDE047" stroke="#181226" stroke-width="6"/>
+    <circle cx="55" cy="62" r="14" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <circle cx="85" cy="62" r="14" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+  </g>
+  <g transform="translate(240 230) scale(0.85) translate(-70 -70)">
+    <path d="M25 80 C25 35 45 20 70 20 C95 20 115 35 115 80 C115 110 105 125 95 115 C85 105 75 125 70 115 C65 125 55 105 45 115 C35 125 25 110 25 80 Z" fill="#EF4444" stroke="#181226" stroke-width="6"/>
+    <circle cx="70" cy="60" r="22" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <circle cx="72" cy="60" r="10" fill="#181226"/>
+  </g>
+</svg>

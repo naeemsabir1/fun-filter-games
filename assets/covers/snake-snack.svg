@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgSnake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#052E16"/>
+      <stop offset="60%" stop-color="#14532D"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgSnake)"/>
+  <!-- Coiling snake body -->
+  <g transform="translate(80 320) scale(0.8) translate(-50 -50)"><circle cx="50" cy="50" r="42" fill="#16A34A" stroke="#181226" stroke-width="6"/></g>
+  <g transform="translate(140 340) scale(0.8) translate(-50 -50)"><circle cx="50" cy="50" r="42" fill="#16A34A" stroke="#181226" stroke-width="6"/></g>
+  <g transform="translate(200 320) scale(0.8) translate(-50 -50)"><circle cx="50" cy="50" r="42" fill="#16A34A" stroke="#181226" stroke-width="6"/></g>
+  <!-- Snake head -->
+  <g transform="translate(240 250) scale(1.1) translate(-60 -60)">
+    <ellipse cx="60" cy="65" rx="45" ry="40" fill="#22C55E" stroke="#181226" stroke-width="6"/>
+    <circle cx="42" cy="55" r="14" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <circle cx="44" cy="55" r="7" fill="#181226"/>
+    <circle cx="78" cy="55" r="14" fill="#FFFFFF" stroke="#181226" stroke-width="4"/>
+    <circle cx="80" cy="55" r="7" fill="#181226"/>
+  </g>
+  <!-- Apple -->
+  <g transform="translate(120 180) scale(1.1) translate(-50 -50)">
+    <path d="M50 32 C30 20 10 35 15 65 C20 90 40 95 50 88 C60 95 80 90 85 65 C90 35 70 20 50 32 Z" fill="#EF4444" stroke="#181226" stroke-width="5"/>
+  </g>
+</svg>

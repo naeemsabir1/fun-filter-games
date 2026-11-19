@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480">
+  <defs>
+    <linearGradient id="bgTrivia" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="60%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="480" rx="36" fill="url(#bgTrivia)"/>
+  <!-- Large check & cross -->
+  <g transform="translate(100 240) scale(1.1) translate(-70 -70)">
+    <circle cx="70" cy="70" r="58" fill="#22C55E" stroke="#181226" stroke-width="6"/>
+    <polyline points="40,70 60,92 100,48" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(220 240) scale(1.1) translate(-70 -70)">
+    <circle cx="70" cy="70" r="58" fill="#EF4444" stroke="#181226" stroke-width="6"/>
+    <line x1="45" y1="45" x2="95" y2="95" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+    <line x1="95" y1="45" x2="45" y2="95" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

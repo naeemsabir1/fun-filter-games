@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="384" height="512">
+  <defs>
+    <linearGradient id="baconCoverBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF8A3D"/>
+      <stop offset="100%" stop-color="#551A08"/>
+    </linearGradient>
+  </defs>
+  <rect width="384" height="512" rx="24" fill="url(#baconCoverBg)"/>
+  <!-- Giant Mouth at top -->
+  <g transform="translate(80, 50) scale(0.9)">
+    <ellipse cx="128" cy="100" rx="90" ry="50" fill="#FF385C" stroke="#1B1036" stroke-width="7"/>
+    <ellipse cx="128" cy="100" rx="75" ry="36" fill="#5A0E1E"/>
+  </g>
+  <!-- Bacon flying mid-air -->
+  <g transform="translate(100, 210) rotate(-20)">
+    <path d="M26 130 Q60 90 95 130 T165 130 T230 130" fill="none" stroke="#E67E22" stroke-width="26" stroke-linecap="round"/>
+    <path d="M30 130 Q60 90 95 130 T165 130 T226 130" fill="none" stroke="#C0392B" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <!-- Pan at bottom -->
+  <g transform="translate(40, 310)">
+    <ellipse cx="150" cy="100" rx="100" ry="50" fill="#202229" stroke="#1B1036" stroke-width="7"/>
+  </g>
+</svg>
